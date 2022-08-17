@@ -6,15 +6,14 @@ if !exists("g:inTmux")
 endif
 
 function! WarningMsg(wmsg)
-    echohl WarningMsg
-    echomsg a:wmsg
-    echohl Normal
+  echohl WarningMsg
+  echomsg a:wmsg
+  echohl Normal
 endfunction
 
 function! StartPyShell()
-    call VimuxRunCommand("ipython")
+  call VimuxRunCommand("conda activate boschen-dsp-ctrl-plx; vipython")
 endfunction
-
 
 function! StopPyShell()
   call PyShellExitPasteEnv()
@@ -61,4 +60,3 @@ endfunction
 function! PyShellSendKey(key)
 	call VimuxRunCommand(a:key)
 endfunction
-
