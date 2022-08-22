@@ -40,7 +40,7 @@ exception that its `StartPyShell()`**<sup>*</sup>** and
 activate conda environments (thus running IPython from them) and also exit and
 deactivate them, respectively.
 
-***** <sub>now known as `StartCondaShell()` and `StopCondaShell()` in
+<b>*</b> <sub>now known as `StartCondaShell()` and `StopCondaShell()` in
 `coshipy`</sub>
 
 ### conda_env_sel.sh
@@ -73,7 +73,7 @@ The following dependencies are required for full functionality:
 * [pandas](https://anaconda.org/anaconda/pandas)**<sup>*</sup>**
 * [tmux](https://github.com/tmux/tmux)  (tested with version 1.9, fails with 1.6)
 
-***** <sub>these packages should be installed under the same conda 
+<b>*</b> <sub>these packages should be installed under the same conda 
 environment, in order to solve and maintain dependency issues ("how to" example
 [here](https://medium.com/@balance1150/how-to-build-a-conda-environment-through-a-yaml-file-db185acf5d22))</sub>
 
