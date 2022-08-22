@@ -60,7 +60,7 @@ in case of:
 usual home directory path i.e., `~/.vim/bundle/coshipy/`).
 
 And it should be exported to `.bashrc`, or the like (see
-[.bashrc](#.bashrc) section).
+[.bashrc](#bashrc) section).
 
 ## Installation
 
@@ -81,7 +81,7 @@ environment, in order to solve and maintain dependency issues ("how to" example
 
 #### Using a multi conda env setup
 **⚠ If you're using multiple environments in your conda setup, then there's no
-need to change anything, you can follow along to the [.vimrc](#.vimrc)
+need to change anything, you can follow along to the [.vimrc](#vimrc)
 section.**
 
 Else continue...
