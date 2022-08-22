@@ -112,7 +112,7 @@ location;</li>
 <li>Place the following line, with the full path to the
 <code>conda_env.sh</code> script, inside <code>.bashrc</code>:
 
-```bashrc
+```sh
 export CONDAENVSEL="<path/to/conda_env.sh>"
 ```
 </li> 
@@ -132,7 +132,7 @@ To setup for a shared user with multiple conda environments, simply place the
 following line, with the full path to the central `conda_env_sel.sh` script
 inside `.bashrc`:
 
-```bashrc
+```sh
 export CONDAENVSEL="<path/to/central/user/conda_env_sel.sh>"
 ```
 
