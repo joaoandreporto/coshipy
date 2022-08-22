@@ -3,15 +3,14 @@ vim(**co**nda, **sh**ell, v.**ipy**thon)
 _______________________________________________________________________________
 
 This is a fork of [vim-pyShell](https://github.com/greghor/vim-pyShell) by
-@greghor, originally made with the intent of "boosting a data science workflow
-with vim+tmux" (more info
+[@greghor](https://github.com/greghor), originally made with the intent of
+"boosting a data science workflow with vim+tmux" (more info
 [here](https://towardsdatascience.com/boosting-your-data-science-workflow-with-vim-tmux-14505c5e016e)).
 What `coshipy` expands on, is in its integration with the
 [conda](https://github.com/conda/conda) ecosystem.
 
 The simplicity of implementation of `vim-pyShell` and above all its usefulness,
-interconnecting [Vim](https://github.com/vim/vim) plugins 
-[vimux](https://github.com/preservim/vimux) with
+interconnecting Vim plugins [vimux](https://github.com/preservim/vimux) with
 [vim-cellmode](https://github.com/julienr/vim-cellmode), to form a workflow for
 users of both
 [Vim](https://github.com/vim/vim) and
@@ -19,7 +18,7 @@ users of both
 the customization of mappings to Python's pandas library methods for data
 inspection purposes.
 
-In @greghor's own words:
+In [@greghor](https://github.com/greghor)'s own words:
 > "This is a very basic integration of the ipython. 
 > So far it allows to start an ipython repl in tmux, then vimux is used to
 > send lines to it. There are also specific functions to work with pandas 
@@ -217,7 +216,7 @@ let g:cellmode_default_mappings='0'
 ```
 
 The following options might also be sensible to set and were derived from
-@greghor's
+[@greghor](https://github.com/greghor)'s
 [.vimrc](https://github.com/greghor/vimux-ds-workflow/blob/master/src/.vimrc):
 
 ```vimrc
@@ -246,6 +245,8 @@ Feel free to raise any related issues and pull requests on
 [this repo](https://github.com/joaoandreporto/coshipy).
 
 ## Credits
-Thank you to @greghor and @tcarette for laying out the groundwork for this
-plugin with `vim-pyShell` and `vim-sparkShell`, as well as @julienr et al. for
-`vim-cellmode` and @benmills et al. for `vimux`
+Thank you to [@greghor](https://github.com/greghor) and
+[@tcarette](https://github.com/tcarette) for laying out the groundwork for this
+plugin with `vim-pyShell` and `vim-sparkShell`, as well as
+[@julienr](https://github.com/julienr) et al. for `vim-cellmode` and
+[@benmills](https://github.com/benmills) et al. for `vimux`
