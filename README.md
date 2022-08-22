@@ -59,7 +59,7 @@ in case of:
 * multi-user setups (where the `coshipy` Vim plugin is installed outside the
 usual home directory path i.e., `~/.vim/bundle/coshipy/`).
 
-And it should be exported to `.bashrc`, or the like (see
+And it should be exported through `.bashrc`, or the like (see
 [.bashrc](#bashrc) section).
 
 ## Installation
@@ -245,7 +245,7 @@ Feel free to raise any related issues and pull requests on
 [this repo](https://github.com/joaoandreporto/coshipy).
 
 ## Credits
-Thank you to [@greghor](https://github.com/greghor) and
+Thanks to [@greghor](https://github.com/greghor) and
 [@tcarette](https://github.com/tcarette) for laying out the groundwork for this
 plugin with `vim-pyShell` and `vim-sparkShell`, as well as
 [@julienr](https://github.com/julienr) et al. for `vim-cellmode` and
