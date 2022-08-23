@@ -31,6 +31,9 @@ works in <u>vi-mode</u>, prescience dictates that one might need to:
 * **choose which conda environment to launch IPython from**;
 * **run "vipython" i.e., IPython in vi-mode**.
 
+## Demo
+https://user-images.githubusercontent.com/78543243/186228180-c773c62f-da72-47b7-984a-88cfdf2237ab.mov
+
 ## Components
 
 ### coshipy.vim
