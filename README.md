@@ -24,7 +24,7 @@ In [@greghor](https://github.com/greghor)'s own words:
 > send lines to it. There are also specific functions to work with pandas 
 > dataframes."
 
-## Why coshipy!?
+## Purpose
 When one uses IPython through several <u>conda environments</u> and typically
 works in <u>vi-mode</u>, prescience dictates that one might need to:
 
@@ -50,7 +50,7 @@ host IPython and, of course, ultimately it takes care of the latter's execution
 in vi-mode.
 
 #### $CONDAENVSEL
-**⚠ Outside the below mentioned use cases this can be safely ignored.**
+**📢 Outside the below mentioned use cases this can be safely ignored.**
 
 This environment variable defines the path to `conda_env_sel.sh`, it is useful
 in case of:
@@ -80,7 +80,7 @@ environment, in order to solve and maintain dependency issues ("how to" example
 ### .bashrc
 
 #### Using a multi conda env setup
-**⚠ If you're using multiple environments in your conda setup, then there's no
+**📢 If you're using multiple environments in your conda setup, then there's no
 need to change anything, you can follow along to the [.vimrc](#vimrc)
 section.**
 
