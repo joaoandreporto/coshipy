@@ -235,6 +235,10 @@ Once all is setup and if using the mappings described above:
 
 ## TODO
 - [ ] Implement Qt Console for Jupyter
+- [ ] Implement cell execution functionality
+    - [ ] sends the current cell to tmux, moving to the next one
+    - [ ] sends the current cell to tmux
+    - [ ] executes all the cells above the current line
 
 ## Contributing
 Feel free to raise any related issues and pull requests on 
