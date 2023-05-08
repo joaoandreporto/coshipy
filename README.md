@@ -165,13 +165,6 @@ noremap <localleader>ik :call StopCondaShell()<CR>
 " sends the currently selected lines to tmux
 nnoremap <localleader>l :call CondaShellSendLine()<CR>
 vnoremap <silent> <localleader>l :call CondaShellSendMultiLine()<CR>
-" sends the current cell to tmux, moving to the next one
-noremap <silent> <localleader>c :call RunTmuxPythonCell(0)<CR>
-" sends the current cell to tmux
-noremap <silent> <localleader>cc :call RunTmuxPythonCell(1)<CR>
-" executes all the cells above the current line. That is, everything from the
-" beginning of the file to the closest ## above the current line
-noremap <silent> <localleader>C :call RunTmuxPythonAllCellsAbove()<CR>
 
 " code inspection
 " get the lenght of iterable under cursor
