@@ -22,14 +22,14 @@ function! StopCondaShell()
 endfunction
 
 function! CondaShellEnterPasteEnv()
-  if !g:inPasteMode && !g:pysparkMode
+  if !g:inPasteMode
     let g:inPasteMode = 1
     call VimuxRunCommand(":paste\r")
   endif
 endfunction
 
 function! CondaShellExitPasteEnv()
-  if g:inPasteMode && !g:pysparkMode
+  if g:inPasteMode
     call VimuxRunCommand("C-d")
     let g:inPasteMode = 0
   endif
@@ -40,9 +40,6 @@ function! CondaShellSendMultiLine() range
   for ind in range(a:firstline,a:lastline)
     let line = substitute(substitute(escape(escape(getline(ind),'\'),'`'),"\t","  ",'g')," *$","",'g')
     let sline = split(line)
-    if g:pysparkMode
-      let sline = sline + ['']
-    endif
     if len(sline) > 0
       " stupid way of getting first non-white space character of the line
       if sline[0][0] !~ '/\|*\|#'
