@@ -164,14 +164,7 @@ noremap <localleader>ik :call StopCondaShell()<CR>
 " code execution
 " sends the currently selected lines to tmux
 nnoremap <localleader>l :call CondaShellSendLine()<CR>
-vnoremap <silent> <localleader>l :call RunTmuxPythonChunk()<CR>
-" sends the current cell to tmux, moving to the next one
-noremap <silent> <localleader>c :call RunTmuxPythonCell(0)<CR>
-" sends the current cell to tmux
-noremap <silent> <localleader>cc :call RunTmuxPythonCell(1)<CR>
-" executes all the cells above the current line. That is, everything from the
-" beginning of the file to the closest ## above the current line
-noremap <silent> <localleader>C :call RunTmuxPythonAllCellsAbove()<CR>
+vnoremap <silent> <localleader>l :call CondaShellSendMultiLine()<CR>
 
 " code inspection
 " get the lenght of iterable under cursor
@@ -242,6 +235,10 @@ Once all is setup and if using the mappings described above:
 
 ## TODO
 - [ ] Implement Qt Console for Jupyter
+- [ ] Implement cell execution functionality
+    - [ ] sends the current cell to tmux, moving to the next one
+    - [ ] sends the current cell to tmux
+    - [ ] executes all the cells above the current line
 
 ## Contributing
 Feel free to raise any related issues and pull requests on 
