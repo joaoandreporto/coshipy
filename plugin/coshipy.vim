@@ -21,7 +21,7 @@ function! StopCondaShell()
   call VimuxRunCommand("conda deactivate")
 endfunction
 
-function! CondaShellEnterPateEnv()
+function! CondaShellEnterPasteEnv()
   if !g:inPasteMode && !g:pysparkMode
     let g:inPasteMode = 1
     call VimuxRunCommand(":paste\r")
